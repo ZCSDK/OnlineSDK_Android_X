@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.sobot.online.weight.SobotContainsEmojiEditText
+        android:id="@+id/yuming"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="域名，默认https://api.sobot.com"/>
+
+    <com.sobot.online.weight.SobotContainsEmojiEditText
+        android:id="@+id/appid"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入appid"/>
+
+    <com.sobot.online.weight.SobotContainsEmojiEditText
+        android:id="@+id/appkey"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入appkey"/>
+
+    <com.sobot.online.weight.SobotContainsEmojiEditText
+        android:id="@+id/account"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入客服账号"/>
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="50dp"
+        android:textSize="@dimen/sobot_sp_18"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sobot_shape_online_btn_border_select"
+        android:textColor="@color/sobot_online_white_color"
+        android:text="启动智齿" />
+
+</LinearLayout>
