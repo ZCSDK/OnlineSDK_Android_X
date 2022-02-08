@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/sobot_msg_top_bottom_style"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_msg_item_audio_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.sobot.online.weight.image.SobotRCImageView
+            android:id="@+id/srcv_msg_item_text_left_user_avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/sobot_yonghu_header_def"
+            app:round_as_circle="true" />
+
+        <LinearLayout style="@style/sobot_msg_left_content_ll_bg_style"
+            android:gravity="center_vertical">
+
+
+            <ImageView
+                android:id="@+id/iv_msg_item_audio_left_play"
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sobot_pop_voice_receive_anime_3" />
+
+            <TextView
+                android:id="@+id/tv_msg_item_audio_left_content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
